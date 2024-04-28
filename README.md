@@ -8,6 +8,7 @@ For this week's Challenge, we have been assigned to create a technical tutorial 
 Is this Tutorial we will be analysing the,
 
 - Matching an Email Regex:  `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+- [Link to Gist](https://gist.github.com/Jameshughes2009/fc705be9849138dec47fc272a70ef3aa)
 
 ## Table of Contents
 
