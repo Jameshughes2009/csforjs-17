@@ -4,7 +4,11 @@ Introductory paragraph (replace this with your text)
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+For this week's Challenge, we have been assigned to create a technical tutorial that explains how a particular regular expression functions. A regular expression, or regex, is a search pattern used by developers. In the tutorial, you’ll break down each part of the expression and describe what it does.
+
+Is this Tutorial we will be analysing the,
+
+- Matching an Email Regex:  `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
 
@@ -23,6 +27,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+- Definition: Anchors provide a way to limit how a regex matches a particular string by telling the regex engine where matches can begin and where they can end. 
+- There are two types of Anchors
+ 1. Start Anchor `^` for the email expression but some case they can start with
 
 ### Quantifiers
 
