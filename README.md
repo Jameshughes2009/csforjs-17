@@ -24,3 +24,11 @@ UofT Coding Tutor
 - Andru Sanchez
 
 
+## Contact Info 
+
+Email
+ - Jameshughes2009@hotmail.com
+
+GitHub
+- https://github.com/Jameshughes2009/csforjs-17
+
