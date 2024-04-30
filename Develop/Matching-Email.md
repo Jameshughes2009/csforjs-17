@@ -32,7 +32,7 @@ There are two types of Anchors:
  2. End Achor are Generally `$` but is the same way as above can aslo be `\Z`
 
 ### Quantifiers
-In Regex, a “quantifier” specifies how many times a certain character or group of characters should appear in the input string.
+In Regex, a “quantifier” specifies how many times a certain character or group of characters should appear in the input string. They allow you to control the number of occurances of a pattern as well. 
  - for this expiression the `+` is Quantifiler and it mean match 1 or more of the preceding token 
  - for `{2,6}`: This group matches a sequence of 2 to 6 lowercase letters or dots. This means that the email address must end with a two to six letter top-level domain, such as .com, .edu, or .co.uk. 
  - From the example we choice `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`:
@@ -43,6 +43,8 @@ In Regex, a “quantifier” specifies how many times a certain character or gro
 
 2. Quantifier `{2,6}` : Matches between 2 and 6 occurrences items.
    - `([a-z\.]{2,6})`: Now er will get  a sequence of 2 to 6 lowercase letters or dots.
+
+
 
 
 ### OR Operator
@@ -64,6 +66,7 @@ There are six types of flags
  - `u` Unicode: Makes the expression assume individual characters as code points, not code units, and thus match 32-bit characters as well.
 
 ### Grouping and Capturing
+Grouping Contrsucts in regex are used to group one or more chacter/sub-expressions, They are the variables between `
 
 ### Bracket Expressions
 
@@ -76,4 +79,8 @@ There are six types of flags
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Find My GitHub Link at [James Hughes](https://github.com/Jameshughes2009)
+
+GitHub-Gist: [Link](https://gist.github.com/Jameshughes2009/fc705be9849138dec47fc272a70ef3aa)
+
+Git Hub Repo: [Link](https://github.com/Jameshughes2009/csforjs-17)
