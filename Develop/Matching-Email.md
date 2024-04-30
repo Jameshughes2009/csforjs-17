@@ -76,7 +76,9 @@ There are six types of flags
 Grouping Contrsucts in regex are used to group one or more chacter/sub-expressions, They are the variables between found between the parentheses `()` 
 
 In the Email Function that are three different groups 
+
 - Local-Part which matches the username and email address
+
  - `([a-z0-9_\.-]+)`
 - Domian
  - `([\da-z\.-]+)`
@@ -85,15 +87,18 @@ In the Email Function that are three different groups
 
 ### Bracket Expressions
 They are used to define a set of characters that can be matched within a single position in a text string. They are denoted by square brackets [...], and any character enclosed within these brackets will become a part of the allowed set.
+
 Part 1 `[a-z0-9_\.-]`
 - `a-z`: Matches lowercase letter from `a` to `z`.
 - `0-9`: Matches digit from `0` to `9`.
 - `_`: Matches underscore character.
 - `\.`: Matches literal period (dot) character. The backslash is used to escape the dot since it has a special meaning in regex.
 - `-`: Matces the hyphen character.
+
 Part 2 `[\da-z\.-]`
 - `\d` another way to say `0-9`
 - `a-z`: Matches lowercase letter from `a` to `z`.
+
 Part 3 `[a-z\.]{2,6}`
 - `{2,6}` specifices the number of times that prevous function must be matched
 
