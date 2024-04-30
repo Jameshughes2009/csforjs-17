@@ -1,6 +1,6 @@
 # Computer Science for JavaScript Challenge: Regex Tutorial 
 
-Introductory paragraph (replace this with your text) test
+Hello this is a comprehensive tutorial on matching email regex using JS
 
 ## Summary
 
@@ -54,7 +54,7 @@ The OR operator will allow regex to match with either one pattern or another but
 ### Character Classes
 Character Classes are short regex expression that apply to a spefifc set of chartacter
 - The Email Function in regex uses two `\d` and `..` 
-- Character Classes are general defined with in square brackets `[]`
+- Character Sets are general defined with in square brackets `[]`
 - 
 
 
@@ -88,15 +88,6 @@ Part 1 `[a-z0-9_\.-]`
 - `_`: Matches underscore character.
 - `\.`: Matches literal period (dot) character. The backslash is used to escape the dot since it has a special meaning in regex.
 - `-`: Matces the hyphen character.
-
-
-
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
