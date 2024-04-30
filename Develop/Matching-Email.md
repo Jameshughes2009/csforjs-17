@@ -37,7 +37,7 @@ In Regex, a “quantifier” specifies how many times a certain character or gro
  - for `{2,6}`: This group matches a sequence of 2 to 6 lowercase letters or dots. This means that the email address must end with a two to six letter top-level domain, such as .com, .edu, or .co.uk. 
  - From the example we choice `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`:
 
-1. Quantifier `+` : Matches "one or more" occurrences.
+1. Quantifier `+` : Matches "one or more" occurrences. 
    - `([a-z0-9_\.-]+)`: Matches one or more lowercase letters, digits, dots, underscore  or hyphens.
    - `([\da-z\.-]+)`: Matches one or more digits, lowercase letters, dots, or hyphens.
 
@@ -55,7 +55,10 @@ The OR operator will allow regex to match with either one pattern or another but
 Character Classes are short regex expression that apply to a spefifc set of chartacter
 - The Email Function in regex uses two `\d` and `..` 
 - Character Sets are general defined with in square brackets `[]`
-- 
+ - `a-z` match charters with the range and is case senstive 
+ - `0-9` match number in a ranger between 0 and 9
+ - `./` is an escape chacter
+ - `\.` Exscaped Character 
 
 
 ### Flags
