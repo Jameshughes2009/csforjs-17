@@ -91,6 +91,12 @@ Part 1 `[a-z0-9_\.-]`
 - `_`: Matches underscore character.
 - `\.`: Matches literal period (dot) character. The backslash is used to escape the dot since it has a special meaning in regex.
 - `-`: Matces the hyphen character.
+Part 2 `[\da-z\.-]`
+- `\d` another way to say `0-9`
+- `a-z`: Matches lowercase letter from `a` to `z`.
+Part 3 `[a-z\.]{2,6}`
+- `{2,6}` specifices the number of times that prevous function must be matched
+
 
 ## Author
 
