@@ -52,6 +52,10 @@ The OR operator will allow regex to match with either one pattern or another but
 - In this example there is no OR Operator that is used
 - General Syntax `|`
 ### Character Classes
+Character Classes are short regex expression that apply to a spefifc set of chartacter
+- The Email Function in regex uses two `\d` and `..` 
+- Character Classes are general defined with in square brackets `[]`
+- 
 
 
 ### Flags
@@ -66,9 +70,26 @@ There are six types of flags
  - `u` Unicode: Makes the expression assume individual characters as code points, not code units, and thus match 32-bit characters as well.
 
 ### Grouping and Capturing
-Grouping Contrsucts in regex are used to group one or more chacter/sub-expressions, They are the variables between `
+Grouping Contrsucts in regex are used to group one or more chacter/sub-expressions, They are the variables between found between the parentheses `()` 
+
+In the Email Function that are three different groups 
+- Local-Part which matches the username and email address
+ - `([a-z0-9_\.-]+)`
+- Domian
+ - `([\da-z\.-]+)`
+- Top-Level Domain
+ - `([a-z\.]{2,6})`
 
 ### Bracket Expressions
+They are used to define a set of characters that can be matched within a single position in a text string. They are denoted by square brackets [...], and any character enclosed within these brackets will become a part of the allowed set.
+Part 1 `[a-z0-9_\.-]`
+- `a-z`: Matches lowercase letter from `a` to `z`.
+- `0-9`: Matches digit from `0` to `9`.
+- `_`: Matches underscore character.
+- `\.`: Matches literal period (dot) character. The backslash is used to escape the dot since it has a special meaning in regex.
+- `-`: Matces the hyphen character.
+
+
 
 
 ### Boundaries
